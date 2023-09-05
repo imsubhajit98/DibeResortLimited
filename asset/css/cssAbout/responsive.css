@@ -1,0 +1,592 @@
+    /* tablet device */
+    @media (min-width:720px) and (max-width:1024px) {
+
+      .banner-txt h1 {
+        font-size: 2.5rem !important;
+      }
+      /* hero section start */
+      .banner {
+        height: 400px;
+      }
+    
+      .banner img {
+        height: 100%;
+      }
+    
+      .banner-txt {
+        position: absolute;
+      }
+    
+      .banner-txt h1 {
+        font-size: 25px;
+        top: 40%;
+        left: 23%;
+      }
+    
+      /* Hero section end */
+    
+    
+    
+    
+    
+    
+    
+      /* Animation section start */
+      .mainAnimation {
+        width: 100%;
+        height: 1250px;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .mainAnimation .animation1 {
+        width: 100%;
+        height: 900px;
+      }
+    
+      .mainAnimation .animation2 {
+        width: 100%;
+      }
+    
+      .aniImg1 .img {
+        position: absolute;
+        width: 150px;
+        top: 60px;
+        left: 120px;
+        animation: roundAnimation 5s infinite linear;
+      }
+    
+    
+      .aniImg2 .img {
+        position: absolute;
+        width: 500px;
+        left: 180px;
+        top: 60px;
+        animation: angellAnimation 5s infinite linear;
+      }
+    
+      .aniImg3 .img {
+        position: absolute;
+        width: 150px;
+        left: 180px;
+        top: 150px;
+        animation: transAnimation 4s infinite linear;
+      }
+    
+      /* Animation section end */
+    
+      
+      /* logo section start */
+      .mainLogo {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly !important;
+      }
+    
+      .logoSection {
+        width: 100%;
+        padding: 30px;
+      }
+    
+      /* logo section end */
+    
+      /* Animation section start */
+      .mainAnimation {
+        width: 100%;
+        /* height: 1200px; */
+        display: flex;
+        flex-direction: column;
+        /* gap: 50px; */
+    
+      }
+    
+      .mainAnimation .animation1 {
+        width: 100%;
+        /* height: 700px; */
+      }
+    
+      .mainAnimation .animation2 {
+        width: 100%;
+        justify-content: start !important;
+      }
+    
+      .aniImg1 .img {
+        position: absolute;
+        width: 150px;
+        top: 70px;
+        left: 120px;
+        animation: roundAnimation 5s infinite linear;
+      }
+    
+    
+      .aniImg2 .img {
+        position: absolute;
+        width: 700px;
+        left: 85px;
+        top: 10px;
+        animation: angellAnimation 5s infinite linear;
+      }
+    
+      .aniImg3 .img {
+        position: absolute;
+        width: 150px;
+        left: 180px;
+        top: 150px;
+        animation: transAnimation 4s infinite linear;
+      }
+    
+    
+    
+    
+      /* Animation section end */
+    
+      /* Speciality section start */
+      .mainSpecial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .SpecialBox {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      
+    
+      .SpecialBox1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .SpecialBox1 .box1Img {
+        text-align: center;
+      }
+    
+      .SpecialBox2 {
+        width: 100%;
+        justify-content: space-between;
+      }
+    
+    
+      /* Speciality section end */
+    
+      /* counter section */
+      .countSection{
+        padding: 30px;
+      }
+    
+      /* direct  */
+      .rowCenter {
+        width: 100%;
+    }
+    
+    
+    }
+
+
+     /*-------   mobile device --------*/
+@media (min-width:481px) and (max-width: 768px) {
+  /* hero section bottom start */
+  .booking-area {
+    margin-top: -7rem;
+  }
+  /* hero section bottom end */
+  
+  
+    /* nav head section  start */
+    .navHead {
+      width: 100%;
+    }
+  
+    .abt2-text h1 {
+      font-size: 1rem;
+    }
+  
+    input[type="text"] {
+      width: 0px;
+    }
+  
+    .banner-txt h1 {
+      font-size: 2rem !important;
+    }
+  
+    .from-select {
+      padding: 15px 30px;
+    }
+  
+    .from-select2 {
+      padding: 20px;
+    }
+  
+    .about2-con {
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+    }
+  
+    
+  
+    /* nav head section end */
+  
+  
+  
+    /* hero section start */
+    .banner {
+      height: 300px;
+    }
+  
+    .banner img {
+      height: 100%;
+    }
+  
+    .banner-txt {
+      position: absolute;
+    }
+  
+    .banner-txt h1 {
+      font-size: 25px;
+      top: 40%;
+      left: 23%;
+    }
+  
+    /* Hero section end */
+  
+  
+  
+    /* Hero bottom start */
+    .privacy h1 {
+      font-size: 40px;
+    }
+  
+    .pri-ho a {
+      font-size: 14px !important;
+    }
+  
+    .pri-po a {
+      font-size: 14px !important;
+    }
+  
+    .pri-bu {
+      /* padding-left: 212px !important; */
+      display: flex;
+      width: 20px;
+    }
+  
+  
+  
+    .pri-bu .pri-img img {
+      width: 100% !important;
+      margin-top: 16px !important;
+    }
+  
+    /* Hero bottom end */
+  
+  
+  
+    /* Animation section start */
+    .mainAnimation {
+      width: 100%;
+      height: 1200px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 0px;
+    }
+  
+    .mainAnimation .animation1 {
+      width: 100%;
+      height: 576px;
+    }
+  
+    .mainAnimation .animation2 {
+      width: 100%;
+    }
+  
+    .aniImg1 .img {
+      position: absolute;
+      width: 150px;
+      top: 60px;
+      left: 120px;
+      animation: roundAnimation 5s infinite linear;
+    }
+  
+  
+    .aniImg2 .img {
+      position: absolute;
+      width: 500px;
+      left: 180px;
+      top: 60px;
+      animation: angellAnimation 5s infinite linear;
+    }
+  
+    .aniImg3 .img {
+      position: absolute;
+      width: 150px;
+      left: 180px;
+      top: 150px;
+      animation: transAnimation 4s infinite linear;
+    }
+  
+    /* Animation section end */
+  
+  
+    /* Speciality section start */
+    .mainSpecial {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .SpecialBox {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .SpecialBox1 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .SpecialBox1 .box1Img {
+      text-align: center;
+    }
+  
+    .SpecialBox2 {
+      width: 100%;
+    }
+  
+    /* Speciality section end */
+  
+  
+    /* logo section start */
+    .mainLogo {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly !important;
+    }
+  
+    .logoSection {
+      width: 100%;
+      padding: 30px;
+    }
+  
+    /* logo section end */
+  
+  }
+
+
+
+/* --------  Small Mobile Smartphone --------*/
+@media (max-width: 480px) {
+  
+  
+    .booking-area {
+      margin-top: -7rem;
+    }
+  
+  
+
+    /* hero section start */
+    .banner {
+      height: 300px;
+    }
+  
+    .banner img {
+      height: 100%;
+      width: 100%;
+    }
+  
+    .banner-txt {
+      position: absolute;
+      top: 22%;
+      left: 16%;
+    }
+  
+    .banner-txt h1 {
+      font-size: 25px;
+      
+    }
+  
+    /* Hero section end */
+  
+    
+  
+  
+  
+  
+  
+    /* Animation section start */
+    .mainAnimation {
+      width: 100%;
+      height: 1290px !important;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .mainAnimation .animation1 {
+      width: 100%;
+      height: 900px;
+    }
+  
+    .mainAnimation .animation2 {
+      width: 100%;
+      display: flex;
+      flex-direction: column !important;
+    }
+    .aniImgPart{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .aniImgPart1{
+      width: 100%;
+    }
+  
+    .aniImg1 .img {
+      position: absolute;
+      width: 100px;
+      top: 10px;
+      left: 40px;
+      animation: roundAnimation 5s infinite linear;
+    }
+  
+  
+    .aniImg2 .img {
+      position: absolute;
+      width: 308px;
+      left: 50px !important; 
+      top: 40px;
+      animation: angellAnimation 5s infinite linear;
+    }
+  
+    .aniImg3 .img {
+      position: absolute;
+      width: 100px;
+      left: 80px;
+      top: 100px;
+      animation: transAnimation 4s infinite linear;
+    }
+  
+    /* Animation section end */
+  
+  
+    /* Speciality section start */
+    .mainSpecial {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 20px;
+    }
+  
+    .SpecialBox {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    
+  
+    .SpecialBox1 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .SpecialBox1 .box1Img {
+      text-align: center;
+    }
+  
+    .SpecialBox2 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .gridBox {
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+  }
+  .gridBox h3 {
+    font-size: 28px;
+  }
+  
+    /* Speciality section end */
+  
+
+
+    /* logo section start */
+    .mainLogo {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly !important;
+    }
+  
+    .logoSection {
+      display: flex;
+      width: 100%;
+      padding: 23px;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    /* logo section end */
+  
+  
+  
+    
+  
+  
+     /* Hero bottom start */
+     .privacy h1 {
+      font-size: 40px;
+    }
+  
+    .pri-ho a {
+      font-size: 14px !important;
+    }
+  
+    .pri-po a {
+      font-size: 14px !important;
+    }
+  
+    .pri-bu {
+      display: flex;
+      width: 20px;
+    }
+  
+    .pri-img {}
+  
+    .pri-bu .pri-img img {
+      width: 100% !important;
+      margin-top: 16px;
+    }
+  
+    .rowCenter {
+        width: 100%;
+    }
+    /* Hero bottom end */
+  
+    
+  
+  
+  
+  
+  
+  
+  }
+
+
+
+ 
+

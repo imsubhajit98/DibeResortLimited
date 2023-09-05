@@ -1,0 +1,784 @@
+
+/*------ Hero section start-------*/
+.banner {
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 50px;
+  height: 700px;
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  filter: brightness(0.8);
+}
+
+.banner-txt {
+  position: absolute;
+  top: 40%;
+  left: 16%;
+  font-size: 62px;
+  text-align: center;
+  color: var(--color4);
+  width: 70%;
+}
+
+.banner-txt h1 {
+  font-weight: bolder;
+  font-size: 4.5rem;
+  text-shadow: 4px 6px 7px var(--color5);
+  /* font-size: 6rem;
+    text-shadow: 4px 4px 20px var(--color5); */
+}
+/*hero section end*/
+
+/* Booking Link Section Start */
+.bannerContain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 180px;
+  position: absolute;
+  top: 85%;
+}
+
+.bannerContainWrap {
+  background-color: var(--color6);
+  opacity: 0.9;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.bannerContainWrap h1 {
+  font-size: 3rem;
+  color: var(--color1);
+  font-family: Oswald;
+  font-weight: bold;
+}
+
+.bannerLink {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bannerLink a {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--color1);
+}
+.bannerLink a:hover{
+  color: var(--color5) !important;
+}
+
+.homeLink {
+  color: var(--color5) !important;
+}
+
+/* prodact start  */
+.mainSlider{
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: var(--color6);
+}
+
+.swiper {
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+}
+.swiper-wrapper{
+  margin-top: 30px;
+  
+}
+
+.leftImg{
+  width: 50px;
+  position: absolute;
+  left: 20px;
+  cursor: grab;
+}
+.rightImg{
+  width: 50px;
+  position: absolute;
+  right:20px;
+  cursor: grab;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0px !important;
+  
+}
+
+.swiper-slide img {
+  object-fit: cover;
+  transition: all 2s ease;
+}
+
+.swiper-slide img:hover{
+  transform: translateY(-30px)
+}
+
+.swiper-pagination-bullet{
+  background-color: var(--color2);
+}
+/* prodact end  */
+
+/* gallery section start  */
+.title{
+  width: 100%;
+  text-align: center;
+}
+.title h1{
+  text-transform: uppercase;
+  color: var(--color1);
+  margin-top: 50px;
+  letter-spacing: 3px;
+  font-size: 70px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold !important;
+}
+.title p{
+  width: 40%;
+  margin: 0 auto;
+  font-size: 20px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+.gallery{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: space-around;
+  align-content: center;
+  gap: 50px;
+  padding: 8rem;
+  margin-bottom: 200px;
+}
+
+.card{
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid var(--color6);
+}
+
+.main_img{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.main_img img{
+  width: 100%;
+  height: 100%;
+  transition: 0.8s ;
+}
+
+.main_img img:hover{
+  transform: scale(1.15);
+}
+
+.map{
+  width: 100%;
+}
+
+.map img{
+  width: 100%;
+  height: 300px;
+  padding: 1.5rem;
+  filter: grayscale(1);
+  transition: all .8s ease-in-out;
+  cursor: pointer;
+}
+.map img:hover{
+  filter: grayscale(0);
+}
+
+.card_text{
+  text-align: center;
+  line-height: 30px;
+  padding: 2rem;
+}
+
+.card_text span{
+  display: block;
+  font-family: Gabriola;
+  color: var(--color3);
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 44px;
+  line-height: 1em;
+}
+
+.card_text p{
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .33em;
+  color: var(--color5);
+}
+
+.card_text .btn{
+  text-decoration: none;
+  display: inline-block;
+  line-height: 2em;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  padding: 5px 30px;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 1px solid var(--color1);
+  text-transform: uppercase;
+  color: var(--color1);
+  background-color: var(--color4);
+  transition: 0.5s;
+  font-weight: bold;
+  box-shadow: 4px 4px 10px rgb(21, 21, 21,0.2);
+}
+
+.btn:hover{
+  background-color: var(--color1);
+  color: var(--color4);
+  transition:  0.8s ease;
+}
+.btn_2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -200px;
+}
+.btn_2 a{
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  border-radius: 25px;
+  border: 1px solid var(--color1);
+  text-transform: uppercase;
+  color: var(--color1);
+  background-color: var(--color4);
+  transition: 0.5s;
+  font-weight: bold;
+  box-shadow: 4px 4px 10px rgb(21, 21, 21,0.2);
+}
+.btn_2 a:hover{
+   background-color: var(--color1);
+   color: var(--color5);
+   transition: 0.5s all ease-in-out;
+}
+/* gallery section end  */
+
+/* melissa section start  */
+.banner-animation{
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.mainAnimation{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.mainAnimation .part1{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.mainAnimation .part2{
+  width: 50%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.animation-part1{
+  margin-bottom: 200px;
+}
+
+.part2 h2{
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--color1);
+  font-weight: bold;
+}
+.part2 p{
+  font-size: 20px;
+}
+
+.mainImage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainImage .parentImage{
+  width: 300px;
+  position: relative;
+}
+
+.mainImage .childImage{
+  position: absolute;
+  top: 73px;
+  left: 84px;
+  z-index: 1;
+}
+.circle{
+  position: relative;
+}
+
+.circle1{
+  position: absolute;
+  top: -190px;
+  left: 90px;
+  width: 90px;
+
+  
+
+  animation: trans 5s infinite linear;
+}
+
+
+@keyframes trans {
+  0%{
+    transform: translateY(-10px);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+
+}
+.circle2{
+  position: absolute;
+  top: -275px;
+  right: 82px;
+  width: 90px;
+  animation: trans 5s infinite linear;
+}
+
+
+@keyframes trans {
+  0%{
+    transform: translateY(-10px);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+
+}
+
+/* melissa section end*/
+
+
+/* savings start */
+.mySaving{
+  width: 100%;
+}
+.mySavingWrap{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.mySavingTxt{
+  width: 40%;
+}
+.mySavingTxt h1{
+  color: var(--color1);
+  font-size: 65px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.mySavingTxt h4{
+  color: var(--color1);
+  font-size: 35px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+.mySavingTxt p{
+  color: var(--color5);
+  font-size: 20px;
+  text-align: justify;
+} 
+
+
+.mySavingImg{
+  width: 40%;
+}
+.mySavingImg img{
+  width: 100%;
+  height: 100%;
+}
+/* savings end */
+
+
+
+
+
+
+/* sponsors section start */
+
+.sponsors h1{
+  color: var(--color1);
+  font-size: 65px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.eco{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.img_wrap{
+  width: 150px;
+  height: 150px;
+}
+.img_wrap img{
+   width: 100%;
+   height: 100%;
+}
+/* sponsors section end */
+
+/* social-media section start  */
+
+.logoContainer{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.mainLogo{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+[class^="box-"]{
+  width: 40px;
+  height: 40px;
+  /* overflow: hidden; */
+}
+
+.box img{
+  width: 100%;
+  height: 100%;
+  transition: 2s ease;
+}
+
+
+
+
+.box img:hover{
+  transform: rotate(360deg);
+  /* transform: scale(2.5); */
+  z-index: 1;
+}
+/* social-media section end  */
+
+
+
+
+
+
+
+
+/* responsive */
+@media(max-width:912px) {
+
+  .bannerContain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 130px;
+    position: absolute;
+    top: 90%;
+  }
+  
+
+}
+
+@media(max-width:480px) {
+  .bannerContain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    position: absolute;
+    top: 80%;
+  }
+
+  .bannerContainWrap h1 {
+    font-size: 2rem;
+    color: var(--color1);
+    font-family: Oswald;
+    font-weight: bold;
+  }
+
+}
+/* Booking Link Section End */
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+/*-------   mobile device --------*/
+@media (max-width:912px){
+
+  /* nav head section  start */
+ .banner-txt h1 {
+    font-size: 2rem !important;
+  }
+ /* navhead Section End */
+
+ 
+
+
+
+  /* hero section start */
+  .banner {
+    height: 300px;
+  }
+
+  .banner img {
+    height: 100%;
+  }
+
+  .banner-txt {
+    position: absolute;
+  }
+
+  .banner-txt h1 {
+    font-size: 25px;
+    top: 40%;
+    left: 23%;
+  }
+  /* Hero section end */
+  .tagImg img {
+    width: 60%;
+  }
+  
+  /* slider  */
+
+  .mainSlider{
+    height: 300px;
+    margin-top: 139px;
+  }
+
+/* gallery start  */
+.gallery {
+  display: block;
+  /* padding: 1rem; */
+ }
+ .title p{
+   width: 100%;
+ }
+ .main_img {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.card{
+  width: 100%;
+  display: grid;
+  gap: 30px;
+  justify-content: normal;
+  
+}
+.map img {
+  height: 400px;
+}
+
+/* melissa section start  */
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.mainAnimation{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainAnimation .part1{
+  width: 100%;
+  padding: 20px;
+}
+
+.mainAnimation .part2 {
+  width: 100%;
+  padding: 24px 47px;
+}
+.part2 h2{
+  
+  text-align: center;
+}
+.part2 p{
+  letter-spacing: 0px;
+  text-align: justify;
+  font-size:20px ;
+}
+
+/* Money saving Start */
+.mySavingWrap{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mySavingTxt{
+  width: 80%;
+}
+.mySavingImg{
+  width: 80%;
+}
+/* Money saving End */
+
+.animation-part1 {
+  margin-bottom: 50px;
+}
+
+
+
+
+
+}
+
+/* --------  Small Mobile Smartphone --------*/
+@media (max-width: 480px) {
+  .sponsors h1{
+    font-size: 40px;
+  }
+  .banner-txt h1 {
+    font-size: 2rem !important;
+  }
+  .title h1{
+    font-size: 40px !important;
+  }
+  .text-section h1{
+    font-size: 40px !important;
+    text-align: center;
+  }
+
+  /* hero section start */
+  .banner {
+    height: 300px;
+  }
+
+  .banner img {
+    height: 100%;
+  }
+
+  .banner-txt {
+    position: absolute;
+    top: 25px;
+  }
+
+  .banner-txt h1 {
+    font-size: 25px;
+    top: 40%;
+    left: 23%;
+  }
+
+  /* Hero section end */
+  .text-section p {
+    font-size: 20px;
+    text-align: justify;
+    /* line-height: 26px; */
+    padding: 24px 25px;
+}
+
+ .pic-section  img{
+  width: 100%;
+ }
+  /* sponsors section */
+  .eco {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    gap: 20px;
+    align-items: center;
+  }
+  .gallery {
+    display: block;
+    padding: 1rem;
+   }
+   .img_wrap {
+    width: 80px;
+    height: 80px;
+}
+
+
+/* Money Saving Start */
+.mySavingWrap{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mySavingTxt{
+  width: 80%;
+}
+.mySavingTxt h1{
+  font-size: 40px;
+}
+.mySavingTxt p{
+  text-align: justify;
+}
+.mySavingImg{
+  width: 80%;
+}
+/* Money Saving End */
+
+.logoContainer{
+  margin-top: 30px;
+}
+
+}
+

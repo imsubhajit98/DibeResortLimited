@@ -1,0 +1,256 @@
+
+
+
+
+/*------ Hero section start-------*/
+.banner {
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 50px;
+  height: 700px;
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  filter: brightness(0.8);
+}
+
+.banner-txt {
+  position: absolute;
+  top: 40%;
+  left: 16%;
+  font-size: 62px;
+  text-align: center;
+  color: var(--color4);
+  width: 70%;
+}
+
+.banner-txt h1 {
+  font-weight: bolder;
+  font-size: 4.5rem;
+  text-shadow: 4px 6px 7px var(--color5);
+  /* font-size: 6rem;
+    text-shadow: 4px 4px 20px var(--color5); */
+}
+/*hero section end*/
+
+/* Booking Link Section Start */
+.bannerContain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  position: absolute;
+  top: 90%;
+}
+
+.bannerContainWrap {
+  background-color: var(--color6);
+  opacity: 0.9;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.bannerContainWrap h1 {
+  font-size: 3rem;
+  color: var(--color1);
+  font-family: Oswald;
+  font-weight: bold;
+}
+
+.bannerLink {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bannerLink a {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--color1);
+}
+.bannerLink a:hover{
+  color: var(--color5) !important;
+}
+
+.homeLink {
+  color: var(--color5) !important;
+}
+
+
+
+/* responsive */
+@media(max-width:912px) {
+
+  .bannerContain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 130px;
+    position: absolute;
+    top: 90%;
+  }
+
+}
+
+@media(max-width:480px) {
+  .bannerContain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    position: absolute;
+    top: 80%;
+  }
+
+  .bannerContainWrap h1 {
+    font-size: 2rem;
+    color: var(--color1);
+    font-family: Oswald;
+    font-weight: bold;
+  }
+
+}
+/* Booking Link Section End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Media */
+/* tablet device */
+@media (min-width:720px) and (max-width:1024px) {
+
+  .banner-txt h1 {
+    font-size: 2.5rem !important;
+  }
+  /* hero section start */
+  .banner {
+    height: 400px;
+  }
+
+  .banner img {
+    height: 100%;
+  }
+
+  .banner-txt {
+    position: absolute;
+  }
+
+  .banner-txt h1 {
+    font-size: 25px;
+    top: 40%;
+    left: 23%;
+  }
+  /* Hero section end */
+
+  .tagImg img {
+    width: 70%;
+  }
+
+ 
+}
+
+.para{
+  margin-top: 100px;
+  padding: 0 15px;
+}
+.para-p{
+  text-align: justify;
+}
+
+
+/*-------   mobile device --------*/
+@media (min-width:481px) and (max-width: 768px) {
+
+  /* nav head section  start */
+ .banner-txt h1 {
+    font-size: 2rem !important;
+  }
+ /* navhead Section End */
+
+ 
+
+
+
+  /* hero section start */
+  .banner {
+    height: 300px;
+  }
+
+  .banner img {
+    height: 100%;
+  }
+
+  .banner-txt {
+    position: absolute;
+  }
+
+  .banner-txt h1 {
+    font-size: 25px;
+    top: 40%;
+    left: 23%;
+  }
+  /* Hero section end */
+  .tagImg img {
+    width: 60%;
+  }
+
+  
+
+
+}
+
+/* --------  Small Mobile Smartphone --------*/
+@media (max-width: 480px) {
+  .banner-txt h1 {
+    font-size: 2rem !important;
+  }
+
+  /* hero section start */
+  .banner {
+    height: 300px;
+  }
+
+  .banner img {
+    height: 100%;
+  }
+
+  .banner-txt {
+    position: absolute;
+  }
+
+  .banner-txt h1 {
+    font-size: 25px;
+    top: 40%;
+    left: 23%;
+  }
+
+  /* Hero section end */
+
+ 
+  
+
+ 
+
+
+
+}

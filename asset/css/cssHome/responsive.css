@@ -1,0 +1,249 @@
+@media (max-width:768px) {
+
+  .btn-1 {
+    padding: 4px 20px !important;
+  }
+
+      
+    .abt2-text h1 {
+      font-size: 1rem;
+    }
+  
+    input[type="text"] {
+      width: 0px;
+    }
+  
+    .banner-txt h1 {
+      font-size: 2rem;
+    }
+  
+    .from-select {
+      padding: 15px 30px;
+    }
+  
+    .from-select2 {
+      padding: 20px;
+    }
+  
+  
+    .about2-con {
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+    }
+  
+    .booking-area {
+      margin-top: 0rem;
+      width: 300px;
+    }
+  
+  
+  
+    .container img {
+      width: 80px
+    }
+  
+    .banner {
+      height: 300px;
+    }
+  
+    .banner img {
+      height: 100%;
+    }
+  
+    .banner-txt {
+      position: absolute;
+      top: 40%;
+      left:13%;
+    }
+  
+    .banner-txt h1 {
+      font-size: 25px;
+    }
+  
+    /* booking Section */
+    .bookingSection{
+      padding: 20px;
+    }
+
+
+    /* calender */
+    #date1 {
+      width: 100%;
+    }
+  
+    #date2 {
+      width: 100%;
+    }
+  
+    #date3 {
+      width: 100%;
+    }
+  
+    #date4 {
+      width: 100%;
+    }
+  
+  
+  
+    /* eco section */
+    .about {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0px;
+    }
+  
+    .about_img h1 {
+      text-align: center;
+    }
+  
+    .about_text {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .about_text p {
+      margin-bottom: 30px;
+    }
+  
+    .about_text .from-select3 {
+      text-align: center;
+      width: 50%;
+      padding: 13px;
+      margin: 0 auto;
+  }
+  
+    /* eco image logo*/
+    .eco-main {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      padding-left: 0;
+      width: 100%;
+      margin-left: 5px;
+  
+    }
+  
+    .ecoLogo {
+      width: 80px;
+    }
+  
+    .ecoLogo img {
+      width: 100%;
+    }
+  
+  
+    /* about container */
+    .about2-con {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .about2-img {
+      width: 100%;
+    }
+  
+    .about2-img img {
+      width: 80%;
+    }
+  
+    .about2-img h1 {
+      font-size: 3rem;
+    }
+  
+    .about2-img h1 span {
+      font-size: 1.5rem;
+    }
+  
+  
+  
+    .abt3-text h1 {
+      font-size: 3rem;
+  
+    }
+  
+    
+  
+  
+  
+  
+  
+   
+  
+    /* leaf img */
+    .w {
+      position: absolute;
+      top: 58%;
+      left: -19%;
+  
+    }
+  
+    .w .leaf1 {
+      height: 200px;
+      width: 100%;
+      margin-top: 53%;
+      margin-left: -25%;
+  
+    }
+  
+    .w1 {
+      position: relative !important;
+    }
+  
+    .w1 .leaf3 {
+      position: absolute !important;
+      top: -60px;
+      height: 200px;
+      width: 100% !important;
+    }
+  
+    .w .leaf2 {
+      height: 200px;
+      margin-left: 24%;
+      margin-top: 745%;
+      display: none;
+  
+    }
+  
+    .blank {
+      height: 100px
+    }
+  
+  
+    /* select option */
+    .from-select {
+  
+      font-size: 13px;
+      padding: 15px 3px;
+      width: 100% !important;
+    }
+  
+    
+    .rowCopy1{
+      display: flex;
+      justify-content: space-between;
+    }
+  
+
+
+
+    /* logo section start */
+    .mainLogo {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly !important;
+    }
+  
+    .logoSection {
+      display: flex;
+      width: 100%;
+      padding: 23px;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    /* logo section end */
+
+  }
+  
+  

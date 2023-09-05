@@ -1,0 +1,195 @@
+
+.news {
+    margin-bottom: 50px;
+    margin-top: -13%;
+  
+  
+  }
+  
+  .news-main {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color6);
+    border-radius: 10px;
+    padding-top: 75px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    opacity: .7;
+  }
+  
+  .news-txt {
+    width: 40%;
+    padding-top: 10px;
+  }
+  
+  .news-txt h1 {
+    font-size: 35px;
+  }
+  
+  .news-item {
+    width: 68%;
+  }
+  
+  input[type="email"] {
+    width: 520px;
+    padding: 22px 20px;
+    box-sizing: border-box;
+    border: 1px solid var(--color4);
+    outline: none;
+    color: var(--color5) !important;
+    font-weight: bolder;
+    border-radius: 30px;
+  }
+  
+  
+  .news-item {
+    position: relative;
+  }
+  .news-img img{
+    height: 65px;
+    width: 90px;
+  }
+  
+  .news-img {
+    position: absolute;
+    top: 3%;
+    left: 70.5%;
+  }
+  
+  /* news end */
+
+
+.mainFooter{
+  background-color: var(--color10);
+    color: var(--color4);
+}
+.mainFooter a{
+  color: var(--color4) !important;
+}
+
+.mainFooter .img-txt a{
+  color: var(--color4) !important;
+}
+
+
+
+
+
+
+
+
+
+
+/*footer start*/
+  
+  .img-part {
+    text-align: center;
+  }
+  
+  
+  
+  .img-txt a {
+    color: var(--color5) !important;
+  }
+  
+  .img-txt a:hover {
+    color: var(--color1) !important;
+  }
+  
+  
+  .contain-txt {
+    display: flex;
+    justify-content: space-evenly !important;
+    
+  }
+  
+  .privacy-txt {
+    width: 33.33%;
+  }
+  
+  .privacy-txt a {
+    color: var(--color5);
+  }
+  
+  .privacy-txt2 {
+    width: 33.33%;
+  }
+  
+  .privacy-txt2 a {
+    color: var(--color5);
+  }
+  
+  
+  .copyright {
+    
+  }
+  
+  .privacy-txt3 {
+    width: 33.33%;
+    padding-right: 20px !important;
+  }
+  
+  .privacy-txt3 a {
+    color: var(--color5);
+  }
+  
+  
+  /*footer ends*/
+  
+  
+
+
+
+.demoDiv{
+  width:100%; 
+  height:50px; 
+  display:flex; 
+  justify-content:center; 
+  align-items:end;
+}
+.demoDiv a{
+  color: var(--color1) !important;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* footer */
+.footer-txt{
+    width: 100% !important;
+  }
+  .footerLink{
+    width: 100% !important;
+  }
+  .footLink{
+    
+    display: flex;
+    width: 100%;
+  
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footLink .img-txt{
+    
+    height: 20px;
+  }
+  .img-txt a{
+    font-weight: bold;
+  }
+  
+
+
+
+
+
+
+

@@ -1,0 +1,681 @@
+
+
+
+
+/*------ Hero section start-------*/
+.banner {
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 50px;
+  height: 700px;
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  filter: brightness(0.8);
+}
+
+.banner-txt {
+  position: absolute;
+  top: 40%;
+  left: 16%;
+  font-size: 62px;
+  text-align: center;
+  color: var(--color4);
+  width: 70%;
+}
+
+.banner-txt h1 {
+  font-weight: bolder;
+  font-size: 4.5rem;
+  text-shadow: 4px 6px 7px var(--color5);
+  /* font-size: 6rem;
+    text-shadow: 4px 4px 20px var(--color5); */
+}
+/*hero section end*/
+
+/* Booking Link Section Start */
+.bannerContain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  position: absolute;
+  top: 90%;
+}
+
+.bannerContainWrap {
+  background-color: var(--color6);
+  opacity: 0.9;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.bannerContainWrap h1 {
+  font-size: 3rem;
+  color: var(--color1);
+  font-family: Oswald;
+  font-weight: bold;
+}
+
+.bannerLink {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bannerLink a {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--color1);
+}
+.bannerLink a:hover{
+  color: var(--color5) !important;
+}
+
+.homeLink {
+  color: var(--color5) !important;
+}
+
+
+
+/* responsive */
+@media(max-width:912px) {
+
+  .bannerContain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 130px;
+    position: absolute;
+    top: 90%;
+  }
+
+}
+
+@media(max-width:480px) {
+  .bannerContain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    position: absolute;
+    top: 80%;
+  }
+
+  .bannerContainWrap h1 {
+    font-size: 2rem;
+    color: var(--color1);
+    font-family: Oswald;
+    font-weight: bold;
+  }
+
+}
+/* Booking Link Section End */
+
+
+ /* prodact start   */
+.hotelTitle{
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  color: var(--color1);
+}
+.hotelTitle h3{
+  font-size: 3rem;
+  font-family: Oswald;
+  font-weight: bold;
+}
+.hotelTitle h1{
+  font-size: 6rem;
+  font-family: Oswald;
+  font-weight: bold;
+}
+
+
+.mainSliders{
+  width: 100%;
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color6);
+}
+
+.swiper {
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+}
+.swiper-wrapper{
+  margin-top: 30px;
+  margin-bottom: 60px;
+  
+}
+
+.leftImg{
+  width: 50px;
+  position: absolute;
+  left: 20px;
+  cursor: grab;
+}
+.rightImg{
+  width: 50px;
+  position: absolute;
+  right:20px;
+  cursor: grab;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center ;
+  align-items: end;
+  margin-right: 0px !important;
+}
+
+.hotelRoom{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+.hotelStar i{
+  color: var(--color1);
+}
+.hotelRoom img{
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--color1);
+}
+
+
+
+.hotelLayar{
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  background-color: var(--color1) !important;
+  opacity: 0.8;
+  bottom: -40px;
+  /* left: 30px; */
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ transition: all .5s ease;
+}
+.hotelLayar a{
+  color: var(--color5);
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: "Oswald", sans-serif;
+}
+.hotelLayar a:hover{
+  color: var(--color5);
+}
+.swiper-slide:hover .hotelLayar{
+  position: absolute;
+  bottom: 0px;
+  /* left: 30px; */
+}
+
+.swiper-slide img {
+  object-fit: cover;
+  transition: all 2s ease;
+}
+
+.swiper-pagination-bullet{
+  background-color: var(--color2);
+}
+/* prodact end  */
+
+
+
+
+
+
+
+
+
+
+/* card section  start*/
+.cardMain{
+  display: flex;
+  
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.cardContainer{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  /* grid-template-rows: repeat(3, 350px); */
+  row-gap: 60px;
+  column-gap: 40px;
+  padding: 3rem 20rem;
+}
+
+
+.card{
+  /* width: 220px; */
+  /* height: 350px; */
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 10PX;
+  position: relative;
+  /* box-shadow: 0px 0px 6px var(--color5); */
+  border: 5px solid var(--color4) !important;
+  box-shadow: 4px 4px 10px rgb(99, 99, 99);
+  border-radius: 5px;
+  background: linear-gradient( 138deg, rgba(2, 0, 36, 1) 0%, var(--color1) 0%, rgba(255, 255, 255, 1) 100%);
+  
+}
+.heading{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.title1{
+  color: var(--color3);
+  font-weight: 900;
+}
+.title2{
+  text-align: center;
+  color: var(--color8);
+}
+
+.logo{
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: 70px;
+  height: 70px;
+}
+.logo img{
+  width: 100%;
+  height: 100%;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.list h4{
+  font-size: 20px !important;
+}
+
+.item{
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--color5);
+  gap: 10px;
+}
+
+.item img{
+  width: 30px;
+}
+
+.book{
+  text-align: center;
+}
+
+.book button{
+  color: var(--color1);
+  background-color: var(--color4);
+  border: 1px solid var(--color1);
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.5s;
+  box-shadow: 4px 4px 10px rgb(21, 21, 21,0.3);
+}
+.book button:hover{
+  color: var(--color5);
+  background-color: var(--color1);
+}
+
+.card .image1{
+  width: 100%;
+  height: 100%;
+}
+.card .image2{
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (max-width:1030px){
+  .logo{
+    width: 65px;
+    height: 65px;
+    top: -20px;
+    left: -20px;
+  }
+  .cardContainer{
+    padding: 30px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width:750px){
+
+  .cardContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .card{
+    /* width: 250px; */
+  }
+  /* .card2{
+    display: none;
+  } */
+  
+
+  .toggle2{
+    display: none;
+  }
+}
+.toggle1{
+  display: none;
+}
+
+
+/* card section end */
+
+/* Tag Map Section Start */
+.mainTag{
+  width: 100%;
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+  gap: 20px;
+}
+.tagDiv1{
+  width: 100%;
+  display:grid;
+  grid-template-columns: repeat(2,450px);
+  justify-content: center;
+  /* background-color: red; */
+  /* gap: 30px; */
+  column-gap: 50px;
+  
+}
+
+
+.tag{
+ display: flex;
+}
+
+.tagImg{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.tagImg img{
+  width: 100%;
+}
+
+.tagText{
+  width: 60%;
+  display:flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 20px;
+  margin-bottom: 50px;
+  
+}
+.text1{
+  height: 50%;
+}
+.text2{
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.tagText h2{
+  color: var(--color3);
+}
+.tagText p{
+
+}
+
+.tagDiv2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tagImg2{
+  width: 300px;
+  height: 300px;
+}
+
+.tagImg2 img{
+  width: 100%;
+  height: 100%;
+  animation: animate 3s infinite linear;
+}
+
+
+@keyframes animate {
+  0%{
+      transform:scale(1);
+  }
+  50%{
+      transform:scale(1.2);
+  }
+  100%{
+      transform:scale(1);
+  }
+  
+}
+
+
+@media (max-width:1024px) {
+    
+
+  .tagDiv1{
+      display:grid;
+      grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (max-width:950px){
+  .mainTag{
+      padding: 10px;
+  }
+  .tagDiv1{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+  }
+  .tagImg2{
+      width: 80%;
+      height: 70%;
+     
+  }
+  
+}
+/* Tag Map Section End */
+
+
+
+
+
+
+/* Responsive Media */
+/* tablet device */
+@media (min-width:720px) and (max-width:1024px) {
+
+  .banner-txt h1 {
+    font-size: 2.5rem !important;
+  }
+  /* hero section start */
+  .banner {
+    height: 400px;
+  }
+
+  .banner img {
+    height: 100%;
+  }
+
+  .banner-txt {
+    position: absolute;
+  }
+
+  .banner-txt h1 {
+    font-size: 25px;
+    top: 40%;
+    left: 23%;
+  }
+  /* Hero section end */
+
+  .tagImg img {
+    width: 70%;
+  }
+
+ 
+}
+
+
+
+/*-------   mobile device --------*/
+@media (min-width:481px) and (max-width: 768px) {
+
+  /* nav head section  start */
+ .banner-txt h1 {
+    font-size: 2rem !important;
+  }
+ /* navhead Section End */
+
+ 
+
+
+
+  /* hero section start */
+  .banner {
+    height: 300px;
+  }
+
+  .banner img {
+    height: 100%;
+  }
+
+  .banner-txt {
+    position: absolute;
+  }
+
+  .banner-txt h1 {
+    font-size: 25px;
+    top: 40%;
+    left: 23%;
+  }
+  /* Hero section end */
+  .tagImg img {
+    width: 60%;
+  }
+
+  .hotelTitle {
+    margin-top: 120px;
+  }
+
+  .hotelTitle h3{
+    font-size: 1.5rem;
+  }
+  .hotelTitle h1{
+    font-size: 3rem;
+  }
+
+  
+
+
+}
+
+/* --------  Small Mobile Smartphone --------*/
+@media (max-width: 480px) {
+  .cardMain {
+    margin-top: 0;
+  }
+  .banner-txt h1 {
+    font-size: 2rem !important;
+  }
+
+  /* hero section start */
+  .banner {
+    height: 300px;
+  }
+
+  .banner img {
+    height: 100%;
+  }
+
+  .banner-txt {
+    position: absolute;
+  }
+
+  .banner-txt h1 {
+    font-size: 25px;
+    top: 40%;
+    left: 23%;
+  }
+
+  /* Hero section end */
+
+
+  /* Hotel Slider Start */
+  
+  .leftImg{
+    width: 40px;
+    position: absolute;
+    left: 10px;
+    cursor: grab;
+  }
+  .rightImg{
+    width: 40px;
+    position: absolute;
+    right:10px;
+
+  }
+  .hotelTitle {
+    margin-top: 70px;
+  }
+
+  .hotelTitle h3{
+    font-size: 1.5rem;
+  }
+  .hotelTitle h1{
+    font-size: 3rem;
+  }
+  /* Hotel Slider End */
+}
+

@@ -1,0 +1,165 @@
+
+@media(max-width:912px) {
+    /* banner_conten start */
+    .Contact_banner{
+      height: 600px;
+    }
+    .Contact_bannerContain {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      height: 130px;
+      position: absolute;
+      top: 90%;
+    }
+  /* banner_conten end */
+
+  /* Contact_crd_start */
+  .contact_card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* Contact_crd_end */
+
+  /* contact_start */
+ 
+  .contact_wrap{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .contactForm {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }  
+  .map_wrap {
+    width: 80%;
+    height: 300px;
+    margin-top: 20px;
+ }
+  /* contact_end */
+
+  /* Newsletter start  */
+  .newsletter_wrep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .newsletter_box_left {
+    width: 90%;
+  }
+  .newsletter_box_right {
+    width: 90%;
+  }
+    /* Newsletter end */
+
+    .sarvis_laft{
+      display: flex;
+      align-items: center;
+      gap: 12px;
+  }
+  .sarvis_right{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+    .sarvis_laft img {
+      width: 100px;
+      height: 100px;
+    }
+    .sarvis_right img {
+      width: 100px;
+      height: 100px;
+    }
+
+
+  }
+
+
+
+  @media(max-width:480px) {
+     /* banner_conten start */
+     .Contact_banner {
+      height: 300px;
+     } 
+    .Contact_bannerContain {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      height: 100px;
+      position: absolute;
+      top: 90%;
+    }
+  
+    .Contact_bannerContainWrap h1 {
+      font-size: 2rem;
+      color: var(--color1);
+      font-family: Oswald;
+      font-weight: bold;
+    }
+     /* banner_conten end */
+
+     /* contact_start */
+     .Contact{
+      padding: 0rem;
+    }
+    /* contact_end */
+   
+    /* Newsletter start  */
+    .newsletter_box_left {
+      width: 100%;
+    }
+    .newsletter_box_right {
+      width: 100%;
+    }
+    .btn_1 {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      margin-left: 0px;
+      width: 50%;
+      padding: 10px 40px;
+      /* margin: 20px auto; */
+    }
+    
+
+  .carcel_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .chat_gorop_1 input {
+    padding: 10px 75px;
+   }
+   .chat_gorop_1 {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    /* Newsletter end */
+
+    /* sarvis start */
+
+    .sarvis_wrap{
+      display: flex;
+      flex-direction: column;
+    }
+    .sarvis_laft {
+      display: flex;
+      flex-direction: column;
+    }
+    .sarvis_right {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+   }
+    /* sarvis end*/
+    
+
+     
+  }

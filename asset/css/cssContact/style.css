@@ -1,0 +1,339 @@
+
+/*------ Hero section start-------*/
+.Contact_banner {
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 50px;
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.Contact_banner img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  filter: brightness(0.8);
+}
+
+/*hero section end*/
+
+/* Booking Link Section Start */
+.Contact_bannerContain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 180px;
+  position: absolute;
+  top: 85%;
+}
+
+.Contact_bannerContainWrap {
+  background-color: var(--color6);
+  opacity: 0.9;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.Contact_bannerContainWrap h1 {
+  font-size: 3rem;
+  color: var(--color1);
+  font-family: Oswald;
+  font-weight: bold;
+}
+
+.Contact_bannerLink {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Contact_bannerLink a {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--color1);
+}
+.Contact_bannerLink a:hover {
+  color: var(--color5) !important;
+}
+
+.Contact_homeLink {
+  color: var(--color5) !important;
+}
+/* Booking Link Section end */
+
+/* contact_card_start  */
+
+.contact_card {
+  width: 100%;
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact_card_wrap {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 4px 4px 10px rgb(99, 99, 99);
+  transition: 0.5s;
+  padding: 5px;
+  border-radius: 5px;
+  /* background: rgb(2,0,36); */
+  background: linear-gradient( 138deg, rgba(2, 0, 36, 1) 0%, var(--color1) 0%, rgba(255, 255, 255, 1) 100%);
+  border: 5px solid var(--color4);
+}
+.contect_img {
+  width: 110px;
+  height: 110px;
+  margin-top: 20px;
+}
+.contect_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact_card_wrap h3 {
+  margin-top: 30px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+
+/* .contact_card_wrap:hover{
+    background-color: var(--color7);
+} */
+
+/* contact_card_end  */
+
+/* contact_start */
+
+.Contact {
+  width: 100%;
+  background-image: url(/DIBECOMPONENT/asset/img/imgContact/Contect_img.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 50px;
+  padding: 4rem;
+}
+
+.contact_wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contactForm {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.contactForm input {
+  padding: 15px 8px;
+  outline: none;
+  border: 2px solid var(--color5);
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.283);
+  font-weight: bold;
+  box-shadow: 4px 4px 10px rgb(21, 21, 21,0.5);
+}
+.contactForm input[type="email"] {
+  width: 100%;
+  padding: 15px 8px;
+  outline: none;
+  border: 2px solid var(--color5);
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.283);
+  font-weight: bold;
+  box-shadow: 4px 4px 10px rgb(21, 21, 21,0.5);
+  color: var(--color5);
+}
+.contactForm textarea {
+  outline: none;
+  border: 2px solid var(--color5);
+  border-radius: 3px;
+  padding: 15px 8px;
+  background-color: rgba(255, 255, 255, 0.283);
+  font-weight: bold;
+  box-shadow: 4px 4px 10px rgb(21, 21, 21,0.5);
+}
+.contactForm label {
+  color: var(--color5);
+  font-weight: 600;
+}
+.cotect_btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.cotect_btn .btn {
+  padding: 15px 68px;
+  border-radius: 25px;
+  border: 1px solid var(--color1);
+  text-transform: uppercase;
+  color: var(--color1);
+  background-color: var(--color4);
+  transition: 0.5s;
+  font-weight: bold;
+  box-shadow: 4px 4px 10px rgb(21, 21, 21,0.5);
+}
+.btn:hover {
+  background-color: var(--color1);
+  color: var(--color4);
+  border: 1px solid var(--color4);
+}
+
+.map_wrap {
+  width: 50%;
+  height: 580px;
+  box-shadow: 4px 4px 10px rgb(21, 21, 21,0.5);
+  margin-top: -50px;
+}
+.map_wrap .map {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+/* contact_end  */
+
+/* Newsletter start  */
+
+.newsletter_main {
+  width: 100%;
+  color: var(--color4);
+}
+.newsletter_wrep {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter_box_left {
+  width: 50%;
+  background-color: var(--color8);
+  display: flex;
+  flex-direction: column;
+}
+.newsletter_box_left h2 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.newsletter_box_left p {
+  margin-left: 30px;
+}
+.chat_gorop_1 {
+  margin-left: 30px;
+  padding-bottom: 30px;
+}
+.chat_gorop_1 input {
+  padding: 10px 40px !important;
+  outline: none !important;
+  border: none !important;
+  border-radius: 20px !important;
+  box-shadow: 4px 4px 10px rgb(21, 21, 21,0.5) !important;
+  width: 50% !important;
+}
+.btn_1 {
+  display: inline-block;
+  padding: 10px 60px;
+  border: 1px solid var(--color1);
+  background-color: var(--color4);
+  margin-left: 20px;
+  border-radius: 25px;
+  color: var(--color1);
+  transition: 0.5s;
+  font-weight: bold;
+  box-shadow: 4px 4px 10px rgb(21, 21, 21,0.5);
+}
+.btn_1:hover {
+  background-color: var(--color1);
+  border: 1px solid var(--color4);
+  color: var(--color5);
+}
+
+.newsletter_box_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--color9);
+}
+.newsletter_box_right h2 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.newsletter_box_right p {
+  margin-left: 30px;
+}
+.carcel_main {
+  display: flex;
+  padding: 20px;
+}
+.carcel {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+.carcel img {
+  overflow: hidden;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  transition: transform 400ms ease-out;
+  filter: grayscale(1);
+  border: 2px solid #00838f;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.carcel img:hover {
+  filter: none;
+  filter: grayscale(0);
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+/* Newsletter end  */
+
+/* sarvis start */
+.sarvis {
+  width: 100%;
+  background-color: var(--color7);
+  margin-top: 50px;
+  padding: 20px;
+}
+.sarvis_wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sarvis_laft {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.sarvis_laft img {
+  width: 180px;
+  height: 180px;
+}
+.sarvis_right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.sarvis_right img {
+  width: 180px;
+  height: 175px;
+}
+
+/* sarvis end*/
+
+
